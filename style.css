@@ -1,0 +1,38 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ ul li{
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    display: inline;
+    float: right;
+
+}
+#image{
+    
+    align-items: flex;
+}
+
+
+
+.star{
+    color: gold;
+}
+
+.data{
+    margin-right: 10%;
+    float: right;
+    
+}
+button{
+    padding: 10px 50px;
+    background-color: #eb3666;
+    color: white;
+}
+button:hover{
+    background-color: #ec4b75;
+    cursor: pointer;
+}
