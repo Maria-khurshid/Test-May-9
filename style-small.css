@@ -16,9 +16,22 @@ body {
     color: gold;
 }
 
-.data {
+#image {
+    margin-top: 0%;
+}
+
+.details {
+    margin: auto;
     display: inline;
-    height: 10px;
+    visibility: visible;
+}
+
+.details::before {
+    content: url(images/book-item.jpg);
+}
+
+#image {
+    display: none;
 }
 
 button {
