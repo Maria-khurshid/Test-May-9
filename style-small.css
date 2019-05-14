@@ -40,11 +40,8 @@ body {
 }
 
 .book-data::before {
+    height: 40px;
     content: url(images/book-item.jpg);
-}
-
-.book-img {
-    display: none;
 }
 
 button {

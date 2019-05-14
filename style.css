@@ -82,6 +82,10 @@ main {
     padding-right: 50px;
 }
 
+.book-img img {
+    height: 300px;
+}
+
 .star {
     border-bottom: 1px solid grey;
 }
