@@ -1,36 +1,49 @@
 body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
+.nav {
     display: none;
+}
+
+#logo {
+    display: block;
+    position: fixed;
+    padding: 10px;
+    background-color: #fffdfd;
 }
 
 #bar {
     display: block;
     position: fixed;
     left: 90%;
+    padding: 10px;
+    background-color: #f5f0f0;
 }
 
 .star {
     color: gold;
 }
 
-#image {
+.book-img {
+    width: 60%;
+    height: 30px;
     margin-top: 0%;
 }
 
-.details {
+.book-data {
     margin: auto;
     display: inline;
-    visibility: visible;
 }
 
-.details::before {
+.book-data::before {
     content: url(images/book-item.jpg);
 }
 
-#image {
+.book-img {
     display: none;
 }
 
@@ -44,4 +57,9 @@ button {
 button:hover {
     background-color: #ec4b75;
     cursor: pointer;
+}
+
+main {
+    margin: 15px;
+    padding: 0%;
 }
