@@ -1,12 +1,14 @@
 /* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
 
 body {
+    width: 90%;
     background-color: rgb(201, 200, 200);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.row {
+header ul li {
     display: flex;
+    align-content: space-between;
 }
 
 #bar {
@@ -26,7 +28,7 @@ body {
     display: block;
 }
 
-.row {
+.ul li {
     flex-direction: row;
 }
 
